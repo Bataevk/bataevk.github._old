@@ -14,7 +14,6 @@ var(--tg-theme-button-text-color)
 body{
     background-color: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
-    font-family: ;
 }
 
 body a{
@@ -24,7 +23,7 @@ body a{
 body button, body input[type=button], .btn{
     background-color: var(--tg-theme-button-color);
     color: var(--tg-theme-button-text-color);
-    border: .25em var(--tg-theme-text-color) solid;
+    border: .25em var(--tg-theme-buton-text-color) solid;
     font-family: 'Press Start 2P', cursive;
 
     /* --bs-btn-font-weight: 600; */
