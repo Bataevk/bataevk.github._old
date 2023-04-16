@@ -11,6 +11,17 @@ var(--tg-theme-button-color)
 var(--tg-theme-button-text-color)
 */
 
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Press Start 2P', cursive;
+}
+
+hr{
+    color: var(--tg-theme-text-color);
+    opacity: 1.0;
+    filter: blur(.5px);
+}
+
+
 body{
     background-color: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
