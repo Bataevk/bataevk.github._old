@@ -11,7 +11,7 @@ var(--tg-theme-button-color)
 var(--tg-theme-button-text-color)
 */
 
-h1,h2,h3,h4,h5,h6,a,p{
+h1,h2,h3,h4,h5,h6,a,p, label{
     font-family: 'Press Start 2P', cursive;
 }
 
