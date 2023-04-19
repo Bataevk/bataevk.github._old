@@ -66,6 +66,10 @@ body button, body input[type=button], .btn{
     --bs-btn-bg: var(--tg-theme-color) !important;
 }
 
+.border{
+    --bs-border-color: var(--tg-theme-button-color);
+}
+
 .d-grid{
     display: grid;
     grid-auto-rows: 1fr;
