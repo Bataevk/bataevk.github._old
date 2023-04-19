@@ -15,11 +15,11 @@
 </head>
 <body class="d-flex flex-column justify-content-start align-items-center w-100 vh-100 py-4">
     <h1 class="py-2">Задания</h1>
-    <div class="container text-center d-grid">
-        <div class="btn shadow-sm border-3 w-100 my-1 rounded-0 col p-0 pt-4">
+    <div class="container text-center d-grid block-task">
+        <div class="btn shadow-sm border-3 w-100 my-1 rounded-0 col p-0 pt-4 tg-theme" data-bs-toggle="collapse" data-bs-target=".collapseText1" aria-expanded="false">
             <p class="text-center w-100 tg-button-theme fs-4">Заголовок</p>
-            <div class="col-12">
-                <p class="text-wrap p-2 tg-theme">
+            <div class="col-12 collapse collapseText1">
+                <p class="text-wrap p-2">
                     Made it!
                     Made it!
                     Made it!
@@ -33,7 +33,7 @@
                     Made it!
                 </p>
             </div>
-            <div class="w-100 row mx-0 block-tasks align-items-center mb-3">
+            <div class="w-100 row mx-0 align-items-center mb-3">
                 <div class="col-6 d-flex flex-column justify-content-center border-end border-1">
                     <p class="m-0">ОПЫТ: 120</p>
                 </div>
@@ -41,8 +41,8 @@
                     <p class="m-0">0/2</p>
                 </div>
             </div>
-            <div class="p-2 pt-0">
-                <button type="button" class="btn btn-outline-light shadow-sm border-3 w-100 rounded-0 col px-4 py-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="p-2 pt-0 collapseText1">
+                <button type="button" class="btn shadow-sm border-3 w-100 rounded-0 col px-4 py-4 d-flex flex-column justify-content-center align-items-center">
                     Присоединиться
                 </button>
             </div>
@@ -57,5 +57,13 @@
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script>
+
+        function turn_hide(element) {
+            
+        }
+
+        let task_text = document.querySelectorAll("block-task .hide");
+    </script>
 </body>
 </html>
